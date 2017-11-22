@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.hdp_ims" version="1.0.0" name="hdp_ims" provider-name="ypchen">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.youtube.dl" version="17.709.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>hdp_ims migrated onto KODI as an addon</summary>
+        <description>This addon is not affiliated with any content providers.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

@@ -23,7 +23,7 @@ for addon in *; do
     echo ---- go to ../..
     cd ../..
     echo ---- zip the add-on
-    zip -r "${addon}-${version}.zip" "${addon}/" -x "*.git*"
+    zip -9 -r "${addon}-${version}.zip" "${addon}/" -x "*.git*"
     echo ---- go back
     cd -
     echo ---- move the zip

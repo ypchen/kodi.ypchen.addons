@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.hdp_ims" version="1.18.1" name="hdp_ims" provider-name="ypchen">
+<addon id="plugin.video.hdp_ims" version="1.18.2" name="hdp_ims" provider-name="ypchen">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
